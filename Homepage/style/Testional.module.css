@@ -1,0 +1,96 @@
+
+.TestionalSection{
+    padding:3%;
+    display: flex;
+    background-color: #FF8E76;
+    justify-content: center;
+}
+.Holding_testional_CustumerCare{
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: space-around;  
+}
+.Testional_Heading{
+    text-align: center;
+}
+.Testional_info{
+    height: 250px;
+
+    display: -moz-box;
+    display: flex !important;
+  
+    flex-direction: column;
+ 
+    align-items: center;
+   
+    justify-content: center;
+}
+.Testional{
+    width: 47%;
+ 
+}
+.Testional_info > div{
+    width: 59%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Testimonial_img {
+    display: flex;
+    align-items: center;
+}
+.CustumerCare{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Testional_Holder{
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+}
+.Testional_partion{
+    height: 100%;
+    width: 3px;
+    background:rgb(233, 217, 217)
+}
+
+.Testional_Ilove_Image{
+    background:white;
+    border-radius: 40px;
+    width: 62%;
+    height: 104px;
+    bottom: 17px;
+    left: 17px;
+    position: relative;
+ 
+    display: flex;
+    
+ 
+    justify-content: center;
+    
+    align-items: center;
+}
+@media screen and (max-width:780px) {
+    .Holding_testional_CustumerCare {
+        flex-direction: column;
+    }
+    .Testional_Ilove_Image{
+left:-6px;
+height: 46px;
+    }
+    .Testional{
+        width: 100%;
+        text-align: center;
+    }
+    .CustumerCare {
+        width: 100%;
+    }
+    .Testimonial_img{
+        width: 28%;
+    }
+    .Testimonial_img  > img{
+        width: 100%;
+    }
+}

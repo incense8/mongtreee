@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@100;200&family=Vibur&display=swap');
+  
+  .LoginContainer{
+        display: grid;
+        grid-template-columns: 39% 61%;
+        grid-template-rows: 100vh;
+   
+        background: #fff4d6;
+    }
+
+    .Login_Heading_svg_Section{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Login_Heading_Section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+    }
+    .Login_Heading_Section > div {
+       width: 90%;
+    }
+    .Login_Heading_Section > div > span {
+        font-size: 40px;
+    }
+    .Form_Holding > form > div  {
+        display: -moz-box;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        -moz-box-pack: space-evenly;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .Form_Holding {
+        display: flex;
+        height: 70%;
+        width: 90%;
+        justify-content: center;
+        align-items: center
+    }
+    .button_holder{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        
+        flex-direction: column;
+      
+        justify-content: space-evenly;
+       
+        align-items: center;
+    }
+
+  
+    
+    .Form_Holding > form > div > div   input:-webkit-autofill
+    {
+            transition: "color 9999s ease-out, background-color 9999s ease-out";
+        transition-delay: 9999s;
+         
+        } 
+
+    .Form_Holding > form {
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80% 20%;
+    height: 70%;
+    width: 70%;
+    }
+    .Form_section{
+        width: 100%;
+        border-bottom-left-radius: 8%;
+        border-top-left-radius: 8%;
+        height: 100%;
+        display: -moz-box;
+        display: flex;
+        background-color: white;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        -moz-box-pack: center;
+        justify-content: space-evenly;
+        -moz-box-align: center;
+        align-items: center;
+    }   
+    .Form_Holding> form > div > div  input {
+        border: none;
+        width: 100%;
+        font-family: "poppins";
+        border-bottom: 1px solid #C4C4C4;
+        height: 51%;
+        font-size: 17px;
+        line-height: 25px;
+        color: #AAAAAA;
+    
+    }
+    .Form_Holding> form > div  > div  {
+       
+        display: flex;
+        width: 100%;
+        height: 19%;
+        -moz-box-align: end;
+        align-items: flex-end;
+    }
+    .Form_Holding> form > div  > div  input:focus{
+       outline: none;
+    }
+    #Submit_button{
+        height: 69%;
+        background-color: #ED374D;
+        width: 50%;
+        color:white;
+        font-family: "poppins";
+        font-size: 17px;
+        border-radius: 5px;
+        border: none
+    }
+    .Login_svg img{
+        width: 100%;
+    }
+
+    @media screen and (max-width:1080px){
+       .LoginContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 29% 71%;
+        height: 100vh;
+       }
+       .Form_Holding > form{
+           width: 90%;
+       }
+       .Form_section{
+       width: 100%;
+        border-bottom-left-radius: 8%;
+        border-top-left-radius: 8%;
+        height: 100%;
+        display: -moz-box;
+        display: flex;
+        background-color: white;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        -moz-box-pack: center;
+        justify-content: center;
+        -moz-box-align: center;
+        align-items: center;
+       }
+
+    .Login_Heading_svg_Section {
+        display: flex;
+        height: 100%;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: row;
+        -moz-box-pack: justify;
+        justify-content: space-between;
+        align-items: center;
+       }
+       .Login_Heading_Section > div > span{
+           font-size: 25px;
+       }
+    }

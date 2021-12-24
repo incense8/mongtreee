@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Vibur&display=swap');
+
+.LogoImg > img{
+    width: 50px;
+}
+
+.Navbar_Holder{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.Company_infoHolder{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company_info_logo{
+    display: flex;
+    align-items: center;
+}
+.Company_infoHolder:hover {
+    cursor:pointer;
+}
+
+.UserIntercation_section
+{    width: 45%;
+    display: flex;
+    justify-content: center;
+
+}
+.SignupLoginSection{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-evenly;
+
+}
+.menu_holder{
+    display: flex;
+    align-items: center;
+}
+.menu_holer_moblie_click{
+    display: flex;
+    align-items: center;
+}
+
+.menu div:nth-child(1) ,.menu_change div:nth-child(1){
+    width: 30px;
+    background-color: #FF2E00;
+    height: 2px;
+}
+.menu div:nth-child(2) ,.menu_change div:nth-child(2){
+    width: 20px;
+    background-color: #FF2E00;
+    height: 2px;
+}
+.menu  div:nth-child(3) ,.menu_change div:nth-child(3){
+    width: 10px;
+    background-color: #FF2E00;
+    height: 2px;
+}
+
+
+.Service_provided {
+    animation: pop 0.3s linear 1;
+}
+@keyframes pop{
+    0%{transform:scale(0.0)};
+    50%  {transform: scale(1.2);}
+     100%{transform: scale(1)
+    }
+  }
+ 
+  .Service_provided{
+      display: none;
+  }
+
+.Service_provided{
+    position: absolute;
+    right: 6%;
+    top: 5%;
+    display: flex;
+    width: 184px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 25px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    height: 196px;
+ 
+    -moz-box-align: end;
+    align-items: flex-end;
+ 
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+
+}
+.Service_provided> ul{
+    display: flex;
+    width: 80%;
+    height: 84%;
+    -moz-box-align: center;
+    align-items: flex-start;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    justify-content: space-around;
+}
+  .Service_provided ul  li {
+    list-style: none;
+}
+
+.menu_change{
+    display: flex;
+ 
+    flex-direction: column;
+    height: 50%;
+
+    justify-content: space-evenly;
+
+}
+
+
+.menu_change div:nth-child(1){
+    animation: 0.7s linear;
+    width: 20px;
+    height: 2px;
+        background-color: #FF2E00;
+        transform: rotate(45deg);
+        transform-origin: 10% 40%;
+}
+.menu_change div:nth-child(2){
+    animation: 0.7s linear;
+   display: none;
+
+}
+.menu_change div:nth-child(3){
+    animation: 0.7s linear;
+    transform: rotate(315deg);
+    width: 20px;
+    transform-origin: 10% 40%;
+    height: 2px;
+    background-color: #FF2E00;
+}
+
+
+
+
+
+.DESUCET{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Vibur', cursive;
+}
+.Navbutton {
+    width: 110px;
+    height: 44px;
+    background: transparent;
+    /* border-radius: 2px solid black; */
+border-radius: 4px;
+border: 1px solid black;
+/* border: 2px 2px 3px 2px solid black; */
+}
+.Navbutton > button{
+    color: rgb(19, 19, 19);
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+
+}
+
+.Navbutton:hover{
+    transition:  0.5s linear;
+   
+    background-color: #FF2E00;;
+}
+.Navbutton:hover> button {
+    color:rgb(255, 255, 255);
+}
+
+@media screen  and (max-width:1000px){
+    
+    .Navbutton{
+        width: 67px;
+        height: 35px;
+    }
+    .UserIntercation_section{
+        display: flex;
+     
+        justify-content: space-around;
+    
+    }
+
+    .Service_provided{
+        position: absolute;
+        right: 0%;
+        top: 7%;    
+    }
+   
+}

@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@100&family=Vibur&display=swap');
+
+.WhoContainer{
+    padding: 1%;
+background: rgba(255, 76, 37, 0.63);;
+    display: flex;
+    flex-direction: column;
+}
+
+.WhoHeading{
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Whodown_border{
+    height: 10px;
+    width: 100%;
+    background-color: #FF522D;
+}
+.for_thoses_img > img {
+    width: 100px;
+}
+
+.forwhoContaint{
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+.for_those_heading >span{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+color: white;
+line-height: 33px;
+}
+.for_those{
+    /* height: 150%; */
+    width: 69%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.for_those_subheading > span{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+}
+.for_those_Learn_more> span {
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 26px;
+}
+
+.WhoSignupsection > div > div > button{
+       border:none;
+       background-color: transparent;
+       width: 100%;
+       height: 100%;
+       font-size: 24px;
+       color: white;
+}
+.WhoSignupsection > div {
+    min-width: 200px;
+       width: 10%;
+}
+.WhoSignupsection > div > div {
+  height: 40px;
+  border-radius: 6px;
+
+  background-color: #FF522D;
+  border-bottom: 2px solid black;
+}
+
+.WhoSignupsection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:780px){
+    .for_those{
+        text-align: center;
+    }
+    .WhoContainer {
+        gap:10px;
+    }
+    .forwhoContaint {
+
+        display: grid;
+        grid-gap: 14px;
+        grid-template-columns: 1fr;
+    }
+}

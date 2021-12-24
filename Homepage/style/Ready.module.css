@@ -1,0 +1,48 @@
+
+.Ready_setup_div{
+    margin: 3%;
+    overflow: hidden;
+}
+
+.Ready_backgroundimg > img {
+    position: relative;
+    left: 91%;
+}
+.Ready_Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.Ready_holder{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.Ready_heading_holder > div {
+    text-align: center;
+}
+.Ready_heading_holder  >div > h2{
+    font-size: 66px;
+}
+
+
+
+@media  screen and (max-width:1080px) {
+
+ .Ready_img > img{
+      width: 300px;
+ }
+   .Ready_holder {
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+        width: 100%;
+        -moz-box-pack: space-evenly;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    
+}

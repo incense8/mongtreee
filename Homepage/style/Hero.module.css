@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@100&family=Vibur&display=swap');
+
+
+.Herodiv_container{
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Moto_holder {
+    /* height: 350px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.HeroImg > img{
+    width: 750px;
+}
+.Moto > span{
+    font-family:"poppins" ;
+font-style: normal;
+font-weight: 800;
+font-size: 100px;
+line-height: 100px;
+color: #2F281E;
+}
+
+
+.MotoSubheading{
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+color: #544837;
+}
+.Hero_divSignup{
+    background:transparent;
+    border:1px solid black;
+    width: 50%;
+    border-radius: 6px;
+    height: 50px;
+}
+.Hero_divSignup:hover{
+    transition:  0.5s linear;
+    color: white;
+    background-color:#FF2E00;
+}
+.Hero_divSignup:hover button{
+    color:black;
+}
+.Hero_divSignup:hover  >button {
+    color: white;
+}
+
+.Hero_divSignup > button{
+    font-size: 25px;
+    color: rgb(26, 25, 25);
+  
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    height: 100%;
+}
+
+@media screen and (max-width:1350px) {
+     .HeroImg > img {
+         width: 400px;
+     }
+     .Moto > span {
+          font-size: 70px;
+     }
+     .MotoSubheading { 
+         font-size: 22px;
+     }
+}
+@media screen and (max-width:1080px) {
+    .Moto > span {
+        font-size: 50px;
+    }
+    .HeroImg {
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:870px) {
+    .Hero_divSignup{
+        margin: 13px;
+        height: 43px;
+    }
+    .Moto > span {
+        font-size: 28px;
+    }
+    .MotoSubheading { 
+        font-size: 17px;
+    }
+    
+}

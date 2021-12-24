@@ -1,0 +1,284 @@
+
+.AmazingHeading{
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Amazingdown_border{
+    height: 10px;
+    width: 100%;
+    background-color: #ff522d;
+}
+.info_holding{
+    width: 75%;
+    justify-content: space-evenly;
+    padding:50px;
+    color: white;
+    display: -moz-box;
+    display: flex;
+    height: 100%;
+  
+    flex-direction: column;
+ 
+    align-items: center;
+ 
+    justify-content: space-evenly;
+
+}
+.Info_subheading{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.Info_Learn_more{
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+
+}
+
+.Traiagnle{
+    position: absolute;
+    left: -89.55%;
+    right: 0.46%;
+    top: 65.68%;
+    bottom: -130.79%;
+    background: #0542B9;
+    opacity: 0.6;
+    border-radius: 32px;
+    -webkit-transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
+    -moz-transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
+    transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
+ z-index: -1;
+
+
+}
+.Amazing_holder{
+    padding:30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ScrollAblediv1{
+  
+    position: relative;
+    overflow: hidden;
+    /* left: 10%; */
+    margin: 30px;
+    /* width: 650px !important; */
+    display: flex;
+
+    border-radius: 13px;
+    height: 300px;
+    background: linear-gradient(
+105.94deg, #378DDD 7.14%, #b0d7fbb0 75.4%), url("../../public/Amazing1.svg");
+    mix-blend-mode: multiply;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+}
+/*__________________________________________________________________________________________________________*/
+
+
+
+.Heading_of_info2> span{
+    font-size: 40px;
+}
+
+
+
+
+
+.info_holding2{
+    width: 75%;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    padding:50px;
+    display: -moz-box;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Info_subheading2{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.Info_Learn_more{
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+
+}
+
+
+.ScrollAblediv2{
+  
+    position: relative;
+    overflow: hidden;
+    /* left: 10%; */
+    margin: 30px;
+    /* width: 650px !important; */
+    display: flex;
+    border-radius: 13px;
+    height: 300px;
+    /* background: linear-gradient(
+105.94deg, #378DDD 7.14%, #b0d7fbb0 75.4%), url("../../public/Amazing2.png"); */
+    background-image: url("../../public/Amazing2.png");
+    mix-blend-mode: multiply;
+     background-size: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+/*_______________________________________________________________________________________________*/
+.Info_Learn_more{
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+
+}
+.Heading_of_info> span{
+    font-size: 40px;
+}
+
+.Info_holding3{
+    width: 75%;
+    color: rgb(15, 14, 14);
+    display: -moz-box;
+    /* justify-content: space-evenly;
+    padding:50px; */
+    display: flex;
+    height: 100%;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: space-evenly;
+
+}
+
+.Traiagnle3{
+    position: absolute;
+    left: -89.55%;
+    right: 0.46%;
+    top: 65.68%;
+    bottom: -130.79%;
+    background:  #FFC00A;;
+    opacity: 0.6;
+    border-radius: 32px;
+    -webkit-transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
+    -moz-transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
+    transform: matrix(0.64, -0.77, 0.77, 0.64, 0, 0);
+ z-index: -1;
+
+
+}
+/* .Amazing_holder{
+    padding:30px;
+} */
+.ScrollAblediv3{
+  
+    position: relative;
+    overflow: hidden;
+    /* left: 10%; */
+    margin: 30px;
+    /* width: px !important; */
+    display: flex;
+    border-radius: 13px;
+    height: 300px;
+       background-color: #FFDD33;
+    mix-blend-mode: multiply;
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+}
+.Heading_of_info3> span{
+    font-size: 40px;
+}
+.info_holding3{
+    width: 75%;
+    color: rgb(26, 24, 24);
+    display: -moz-box;
+    justify-content: space-evenly;
+    padding:50px;
+    display: flex;
+    height: 100%;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: space-evenly;
+}
+.Info_subheading3{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.Amazing3_img > img {
+    position: absolute;
+    top: 21%;
+    width: 142px;
+    right: -1%;
+
+}
+.Info_Learn_more3{
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+}
+
+@media  screen and (max-width:1080px) {
+    .Amazing_holder {
+         display: grid;
+         grid-template-columns:  1fr;
+    }
+
+    
+}
+
+
+@media screen and (max-width:780px) {
+    .Amazing_holder {
+        padding:0%;
+}
+.ScrollAblediv1{
+    margin: 13px;
+}
+.ScrollAblediv2{
+    margin: 13px;
+}
+.ScrollAblediv3{
+    margin: 13px;
+}
+}
