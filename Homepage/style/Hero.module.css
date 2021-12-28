@@ -4,8 +4,12 @@
 
 .Herodiv_container{
     padding: 3%;
-    display: flex;
+    min-height: 74vh;
+  
+    grid-template-columns: 50% 50%;
+    display: grid;
     justify-content: space-around;
+    max-height: 90vh;
 }
 
 .Moto_holder {
@@ -14,18 +18,22 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
-.HeroImg > img{
-    width: 750px;
+.HeroImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.Moto > span{
+.HeroImg > img{
+    width: 100%;
+}
+ .Moto > h2{
     font-family:"poppins" ;
 font-style: normal;
 font-weight: 800;
 font-size: 100px;
 line-height: 100px;
 color: #2F281E;
-}
-
+} 
 
 .MotoSubheading{
     font-style: normal;
@@ -64,10 +72,8 @@ color: #544837;
 }
 
 @media screen and (max-width:1350px) {
-     .HeroImg > img {
-         width: 400px;
-     }
-     .Moto > span {
+ 
+     .Moto > h2 {
           font-size: 70px;
      }
      .MotoSubheading { 
@@ -75,24 +81,38 @@ color: #544837;
      }
 }
 @media screen and (max-width:1080px) {
-    .Moto > span {
+    .Herodiv_container {
+        max-height: 100vh;
+    }
+    /* .Moto > h2 {
         font-size: 50px;
-    }
-    .HeroImg {
+    } */
+    /* .HeroImg {
         display: none;
-    }
+    } */
     
 }
 @media  screen and (max-width:870px) {
+
+    .Herodiv_container {
+        display: grid;
+        grid-template-columns:  1fr;
+    }
     .Hero_divSignup{
         margin: 13px;
         height: 43px;
     }
-    .Moto > span {
+    /* .Moto > span {
         font-size: 28px;
-    }
+    } */
     .MotoSubheading { 
         font-size: 17px;
     }
     
+}
+@media screen and (max-width:750px) {
+     .Moto > h2{
+         font-size:     22px;
+         line-height: 21px;
+     }
 }

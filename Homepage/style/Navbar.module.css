@@ -182,6 +182,7 @@ border: 1px solid black;
     transition:  0.5s linear;
    
     background-color: #FF2E00;;
+    border: none;
 }
 .Navbutton:hover> button {
     color:rgb(255, 255, 255);

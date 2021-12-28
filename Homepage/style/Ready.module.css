@@ -4,8 +4,35 @@
     overflow: hidden;
 }
 
+.Ready_heading_holder{
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ready_SignupButton > button {
+    background-color: transparent;
+    border:none;
+width: 100%;
+height: 100%;
+font-size: 25px;
+
+    color: white
+}
+.Ready_SignupButton {
+    background-color: #ff522d;
+    width: 40%;
+    border-radius: 10px;
+    height: 40px;
+    border-bottom:  2px solid black;
+}
+.Ready_heading{
+    width: 60%;
+}
 .Ready_backgroundimg > img {
-    position: relative;
+    position: absolute;
     left: 91%;
 }
 .Ready_Section{
@@ -33,6 +60,10 @@
 
  .Ready_img > img{
       width: 300px;
+ }
+ .Ready_backgroundimg > img {
+     position: absolute;
+     left: 60%;
  }
    .Ready_holder {
         display: flex;

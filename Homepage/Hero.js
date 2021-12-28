@@ -7,8 +7,9 @@ export default function Hero (){
                 <div className={Class.Moto_holder}>
 
                     <div className={Class.Moto}>
-                 <span>Hit your best short </span><br/>
-                  <span>In Life with use</span>
+                 <h2>Hit your best short In Life with use </h2>
+                 {/* <br/> */}
+                  {/* <span>In Life with use</span> */}
                       
                     </div>
                     <div className={Class.MotoSubheading}><span>Learn from the best tobe the best !!!</span></div>
@@ -17,7 +18,7 @@ export default function Hero (){
 
             {/**Svg provided for  Hero div */}
                   <div className={Class.HeroImg}>
-                      <img src="/Herodivimg.svg" alt="" />
+                      <img src="/Herodiv.svg"alt="" />
                   </div>
         </div>
     )
