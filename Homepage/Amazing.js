@@ -6,7 +6,7 @@ export default function Amazing() {
   return (
     <div className={Class.AmazingContainer}>
       <div className={Class.AmazingHeading}>
-        <div>
+        <div >
           <h1>Amazing things are happening </h1>
           <div className={Class.Amazingdown_border}></div>
         </div>

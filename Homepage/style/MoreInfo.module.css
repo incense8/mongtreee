@@ -123,15 +123,31 @@ color: #FF2E00;
         justify-items: center;
         align-items: center;
     }
-    .Segment_subheading > span {
+    .Segment_subheading > span 
+    {
+        text-align: center;
         font-size: 15px;
     }
 
 .Segment_heading > span {
      font-size: 21px;
 }
+.Segment_subheading {
+    align-items: center;
+}
 .CET{
     height: 100%;
     width: 100%;
+    background: white;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+   
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
 }
 }

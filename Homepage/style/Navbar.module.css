@@ -189,7 +189,12 @@ border: 1px solid black;
 }
 
 @media screen  and (max-width:1000px){
-    
+    .Navbar_Holder{
+        flex-direction: column;
+    }
+ .Company_infoHolder {
+     width: 51%;
+ }   
     .Navbutton{
         width: 67px;
         height: 35px;

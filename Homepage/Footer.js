@@ -33,12 +33,12 @@ export default function Footer (){
               <div>
                 <img
                   className={classes.Facebook_color}
-                  src="/Facebook.svg"
+                  src="/facebook.svg"
                   alt=""
                 />
               </div>
               <div>
-                <img src="/twitter.svg" alt="" />
+                <img src="/Twitter.svg" alt="" />
               </div>
             </div>
           </div>
