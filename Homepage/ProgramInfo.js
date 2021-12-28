@@ -48,7 +48,7 @@ export default function MoreInfo(){
                         </div>
                         <div className={Class.CETinfo}>
                                  <div className={Class._CETSVG}>
-                                     <img src="MoreinfoInterview.svg" alt="" />
+                                     <img src="/MoreinfoInterview.svg" alt="" />
                                  </div>
                                  <div className={Class.CET}>
                                  <div className={Class.Segment_heading}>

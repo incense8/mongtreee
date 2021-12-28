@@ -109,9 +109,13 @@ color: #FF2E00;
 }
 
 @media  screen and (max-width:780px) {
-    ._CETSVG > img {
-        width: 37%;
+    ._CETSVG {
+        display: none;
     }
+    .MoreInfo_Holder{
+        gap:10px;
+    }
+
     .CETinfo {
         display:  grid;
         grid-template-columns: 1fr;
@@ -124,7 +128,7 @@ color: #FF2E00;
     }
 
 .Segment_heading > span {
-     font-size: 23px;
+     font-size: 21px;
 }
 .CET{
     height: 100%;

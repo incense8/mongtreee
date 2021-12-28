@@ -22,7 +22,7 @@ export default function Footer (){
             <div className={classes.SocialMedia}>
               <div>
                 <Link href="https://www.linkedin.com/in/prashantkashyyap?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFlG3gpXHQ4mbBIjWBCsMMA%3D%3D">
-                  <img src="/Linkedin.svg" alt="" />
+                  <img src="/linkedin.svg" alt="" />
                 </Link>
               </div>
               <div>
@@ -38,7 +38,7 @@ export default function Footer (){
                 />
               </div>
               <div>
-                <img src="/Twitter.svg" alt="" />
+                <img src="/twitter.svg" alt="" />
               </div>
             </div>
           </div>

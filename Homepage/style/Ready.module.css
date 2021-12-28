@@ -65,6 +65,15 @@ font-size: 25px;
      position: absolute;
      left: 60%;
  }
+ .Ready_heading{
+     width: 100%;
+ }
+ .Ready_heading_holder >div > h2 {
+     font-size: 30px;
+ }
+ .Ready_SignupButton > button{
+     font-size: 17px;
+ }
    .Ready_holder {
         display: flex;
         -moz-box-align: center;

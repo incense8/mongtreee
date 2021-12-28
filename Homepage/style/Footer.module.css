@@ -104,6 +104,9 @@
   /*_____________________________*/
   
   @media screen and (max-width:1000px){
+    .footer_background > img {
+      display: none;
+    }
     
   .footerHeader{
     display: grid;
