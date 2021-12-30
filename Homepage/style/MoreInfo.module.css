@@ -1,6 +1,6 @@
 
 .MoreInfo_Holder{
-    grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 1fr 1fr 1fr;
     display: grid;
     padding:0px 10px;
 
@@ -109,6 +109,9 @@ color: #FF2E00;
 }
 
 @media  screen and (max-width:780px) {
+    .MoreInfo_Holder{
+        grid-template-rows: 300px 300px 300px;;
+    }
     ._CETSVG {
         display: none;
     }

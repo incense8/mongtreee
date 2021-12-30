@@ -4,6 +4,7 @@
 
 .Herodiv_container{
     padding: 3%;
+    padding-top: 75px;
     min-height: 74vh;
   
     grid-template-columns: 50% 50%;

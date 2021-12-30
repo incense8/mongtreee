@@ -6,7 +6,11 @@
 
 .Navbar_Holder{
     display: flex;
+    background: white;
+
     width: 100%;
+    position: fixed;
+    -moz-box-pack: justify;
     justify-content: space-between;
 }
 .Company_infoHolder{
@@ -23,6 +27,7 @@
     cursor:pointer;
 }
 
+
 .UserIntercation_section
 {    width: 45%;
     display: flex;
@@ -32,6 +37,13 @@
 .SignupLoginSection{
     width: 50%;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SignupLoginSectioninList{
+    display: none;
+    width: 50%;
+ 
     justify-content: space-evenly;
     align-items: center;
 }
@@ -105,10 +117,12 @@
 }
 .Service_provided> ul{
     display: flex;
-    width: 80%;
-    height: 84%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
     -moz-box-align: center;
-    align-items: flex-start;
+    align-items: center;
     -moz-box-orient: vertical;
     -moz-box-direction: normal;
     flex-direction: column;
@@ -187,10 +201,41 @@ border: 1px solid black;
 .Navbutton:hover> button {
     color:rgb(255, 255, 255);
 }
+/**/
+.NavbuttoninList {
+    width: 110px;
+    height: 44px;
+    background: transparent;
+    /* border-radius: 2px solid black; */
+border-radius: 4px;
+border: 1px solid black;
+/* border: 2px 2px 3px 2px solid black; */
+}
+.NavbuttoninList > button{
+    color: rgb(19, 19, 19);
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+
+}
+
+.NavbuttoninList:hover{
+    transition:  0.5s linear;
+   
+    background-color: #FF2E00;;
+    border: none;
+}
+.NavbuttoninList:hover> button {
+    color:rgb(255, 255, 255);
+}
 
 @media screen  and (max-width:1000px){
-    .Navbar_Holder{
-        flex-direction: column;
+    .SignupLoginSection{
+        display: none;
+    }
+    .SignupLoginSectioninList{
+        display: flex;
     }
  .Company_infoHolder {
      width: 51%;
@@ -209,7 +254,9 @@ border: 1px solid black;
     .Service_provided{
         position: absolute;
         right: 0%;
-        top: 7%;    
+        width: 50vw;
+        top: 7%;  
+        height: 80vh;  
     }
    
 }

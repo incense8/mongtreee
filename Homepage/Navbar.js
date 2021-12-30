@@ -68,8 +68,19 @@ export default function Navbar() {
                 <li>
                   <a href="">News</a>
                 </li>
+                <div className={Class.SignupLoginSectioninList}>
+          <div className={Class.NavbuttoninList}>
+            <button onClick={()=> router.push("/Signup")}>Signup</button>
+          </div>
+          <div className={Class.NavbuttoninList}>
+            {" "}
+            <button onClick={()=>router.push("/Login")}>Login</button>
+          </div>
+        </div>
               </ul>
+          
             </div>
+            
           </div>
         </div>
       </div>
