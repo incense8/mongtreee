@@ -1,6 +1,6 @@
 
 .MoreInfo_Holder{
-    grid-template-rows:  1fr 1fr    1fr;
+    grid-template-rows: 300px 300px 300px;
     display: grid;
     padding:0px 10px;
 
@@ -113,6 +113,7 @@ color: #FF2E00;
         display: none;
     }
     .MoreInfo_Holder{
+        padding: 10px;
         gap:10px;
     }
 
@@ -126,7 +127,8 @@ color: #FF2E00;
     .Segment_subheading > span 
     {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
+        padding: 7px;
     }
 
 .Segment_heading > span {

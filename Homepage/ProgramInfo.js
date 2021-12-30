@@ -6,7 +6,7 @@ export default function MoreInfo(){
     return (
         <div className={Class.MoreInfo_Section}>
             <div className={Class.MoreInfo_Titile}>
-                 <span>More Deatils</span>
+                 <span>More Details</span>
                  <hr />
             </div>
                     <div className={Class.MoreInfo_Holder}>
