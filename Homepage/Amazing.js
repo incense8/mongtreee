@@ -78,7 +78,7 @@ export default function Amazing() {
                          </div>
 
                          <div className={Class.Amazing3_img}>
-                           <img src="/amazing3.svg" alt="" />
+                           <img src="/Amazing3.svg" alt="" />
                          </div>
                      </div>
                      <div className={Class.Traiagnle_holder3}>
