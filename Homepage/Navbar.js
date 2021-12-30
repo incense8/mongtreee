@@ -51,16 +51,16 @@ export default function Navbar() {
             >
               <ul>
                 <li>
-                  <a href="">School</a>
+                  <a href="/">School</a>
                 </li>
                 <li>
-                  <a href="">Work</a>
+                  <a href="/">Work</a>
                 </li>
                 <li>
-                  <a href="">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="">Learing app</a>
+                  <a href="/">Learing app</a>
                 </li>
                 <li>
                   <a href="">Self Study</a>

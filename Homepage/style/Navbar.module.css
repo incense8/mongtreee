@@ -5,6 +5,7 @@
 }
 
 .Navbar_Holder{
+   z-index: 3;
     display: flex;
     background: white;
 
@@ -48,6 +49,7 @@
     align-items: center;
 }
 .menu{
+    z-index: 3;
     display: flex;
     -moz-box-orient: vertical;
     -moz-box-direction: normal;
@@ -59,6 +61,7 @@
 .menu_holder{
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 .menu_holer_moblie_click{
     display: flex;
@@ -134,6 +137,7 @@
 
 .menu_change{
     display: flex;
+    z-index: 3;
  
     flex-direction: column;
     height: 50%;

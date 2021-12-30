@@ -94,7 +94,10 @@ color: #544837;
     
 }
 @media  screen and (max-width:870px) {
-
+   
+    .Hero_divSignup > button {
+        font-size: 20px;
+    }
     .Herodiv_container {
         display: grid;
         grid-template-columns:  1fr;
@@ -112,8 +115,23 @@ color: #544837;
     
 }
 @media screen and (max-width:750px) {
-     .Moto > h2{
+    .HeroImg > img {
+        width: 45%;
+    }
+    .Moto > h2{
+        font-family: "Dm Sans";
+        font-size: 39px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: none;
+
+
+    }
+          .Hero_divSignup{
+              width:34% ;
+          }
+     /* .Moto > h2{
          font-size:     22px;
          line-height: 21px;
-     }
+     } */
 }
