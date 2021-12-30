@@ -76,8 +76,8 @@ line-height: 24px;
 
     border-radius: 13px;
     height: 300px;
-    background: linear-gradient(
-105.94deg, #378DDD 7.14%, #b0d7fbb0 75.4%), url("../../public/Amazing1.svg");
+    /* background: linear-gradient(
+105.94deg, #378DDD 7.14%, #b0d7fbb0 75.4%), url("../../public/Amazing1.svg"); */
     mix-blend-mode: multiply;
     /* background-size: 100%; */
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ line-height: 24px;
     height: 300px;
     /* background: linear-gradient(
 105.94deg, #378DDD 7.14%, #b0d7fbb0 75.4%), url("../../public/Amazing2.png"); */
-    background-image: url("../../public/Amazing2.png");
+    /* background-image: url("../../public/Amazing2.png"); */
     mix-blend-mode: multiply;
      background-size: 100%; 
     background-repeat: no-repeat;
