@@ -12,7 +12,7 @@ export default function MoreInfo(){
                     <div className={Class.MoreInfo_Holder}>
                         <div className={Class.CETinfo}>
                                  <div className={Class._CETSVG}>
-                                     <img src="/MoreinfoCet.png" alt="" />
+                                     <img src="/moreinfoCet.png" alt="" />
                                  </div>
                                  <div className={Class.CET}>
                                  <div className={Class.Segment_heading}>
@@ -48,7 +48,7 @@ export default function MoreInfo(){
                         </div>
                         <div className={Class.CETinfo}>
                                  <div className={Class._CETSVG}>
-                                     <img src="/MoreinfoInterview.svg" alt="" />
+                                     <img src="/Moreinfointerview.svg" alt="" />
                                  </div>
                                  <div className={Class.CET}>
                                  <div className={Class.Segment_heading}>

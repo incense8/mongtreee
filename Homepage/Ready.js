@@ -9,7 +9,7 @@ export default function Ready() {
       <div className={Class.Ready_Section}>
         <div className={Class.Ready_holder}>
           <div className={Class.Ready_img}>
-            <img src="/ReadytoLearn.svg" alt="" />
+            <img src="/ReadytoLearn.jpg" alt="" />
           </div>
           <div className={Class.Ready_heading_holder}>
             <div className={Class.Ready_heading}>
