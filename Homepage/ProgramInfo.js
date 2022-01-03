@@ -23,7 +23,7 @@ export default function MoreInfo(){
                                      <div className={Class.Segment_subheading}>
 <span>Get admission in professional courses after 10th, Be  ready to  step ahead in professionalism. </span >                         
          
-<div><Link href="/"><a href="/">Know More</a></Link></div>  
+<div><Link href="/Cet"><a href="/">Know More</a></Link></div>  
  </div>
 
                                  </div>

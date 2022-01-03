@@ -1,0 +1,107 @@
+
+
+
+.Eligible_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Eligible_heading{
+    width: 90%;
+}
+.Eligible_heading > h2 {
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+color: #FF2E00;
+}
+.Eligible_Subheading_holder{
+   width:70% ;  
+   justify-content: center;
+   display: flex;
+}
+
+.Eligible_subheading > span{
+    font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 31px;
+color: #000000;
+}
+
+/*________________________*/
+
+.Eligible_grid{
+    margin: 80px 10px 0px 10px;
+}
+
+.Eligible_grid_heading, .Eligible_InfoHolder {
+    display: grid;
+    margin-right: 5%;
+    margin-left: 5%;
+    /* width: 100%; */
+    grid-template-columns: 30% 30% 30%;
+    justify-items: center;
+
+
+}
+
+.Eligible_grid_heading > div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.Eligible_grid_heading >div > span {
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+color: #FF2E00;
+}
+
+.Eligible_InfoHolder > div {
+    display: flex;
+    align-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.InfoNumber >span{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.Programme_info >span{
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+}
+
+.Eligible_criteria > p {
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+}
+.Eligible_InfoHolder:nth-of-type(odd){
+background-color: pink;
+}

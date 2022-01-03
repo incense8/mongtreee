@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 export default function Navbar() {
   const [Ham, setHam] = useState(true);
-  const router  = useRouter()
+  const router = useRouter();
 
   return (
     <div className={Class.Navbar_Holder}>
@@ -26,19 +26,16 @@ export default function Navbar() {
       <div className={Class.UserIntercation_section}>
         <div className={Class.SignupLoginSection}>
           <div className={Class.Navbutton}>
-            <button onClick={()=> router.push("/Signup")}>Signup</button>
+            <button onClick={() => router.push("/Signup")}>Signup</button>
           </div>
           <div className={Class.Navbutton}>
             {" "}
-            <button onClick={()=>router.push("/Login")}>Login</button>
+            <button onClick={() => router.push("/Login")}>Login</button>
           </div>
         </div>
-        <div
-          className={Class.menu_holder}
-          onClick={() => setHam(!Ham)}
-        >
+        <div className={Class.menu_holder} onClick={() => setHam(!Ham)}>
           {/**Menu bar */}
-          <div className={  Ham ? Class.menu: Class.menu_change}>
+          <div className={Ham ? Class.menu : Class.menu_change}>
             <div></div>
             <div></div>
             <div></div>
@@ -46,8 +43,8 @@ export default function Navbar() {
           <div className={Class.HamBurgerMenuOpton}>
             {/**Absolute position with Service and hamburger but css change after 1000px */}
             <div
-              className={ Class.Service_provided } 
-              style={    Ham ?         { display:"none"}  : {display:"flex"}       }
+              className={Class.Service_provided}
+              style={Ham ? { display: "none" } : { display: "flex" }}
             >
               <ul>
                 <li>
@@ -69,18 +66,18 @@ export default function Navbar() {
                   <a href="">News</a>
                 </li>
                 <div className={Class.SignupLoginSectioninList}>
-          <div className={Class.NavbuttoninList}>
-            <button onClick={()=> router.push("/Signup")}>Signup</button>
-          </div>
-          <div className={Class.NavbuttoninList}>
-            {" "}
-            <button onClick={()=>router.push("/Login")}>Login</button>
-          </div>
-        </div>
+                  <div className={Class.NavbuttoninList}>
+                    <button onClick={() => router.push("/Signup")}>
+                      Signup
+                    </button>
+                  </div>
+                  <div className={Class.NavbuttoninList}>
+                    {" "}
+                    <button onClick={() => router.push("/Login")}>Login</button>
+                  </div>
+                </div>
               </ul>
-          
             </div>
-            
           </div>
         </div>
       </div>

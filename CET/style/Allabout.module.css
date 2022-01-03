@@ -1,0 +1,107 @@
+
+
+
+
+.Allabout_holder{
+    padding-top: 121px;
+    height:87vh;
+    display: -moz-box;
+    display: flex;
+    -moz-box-pack: space-evenly;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Info_holder{
+    width: 57%;
+    display: -moz-box;
+    display: flex;
+    height: 90%;
+  
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.What_conatiner{
+   
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    height: 84%;
+    width: 84%;
+    -moz-box-pack: space-evenly;
+    justify-content: center;
+
+}
+.Allabout_heading h1 {
+    font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+color: #FF2E00;
+}
+
+.CETpageImgHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Allabout_heading{
+    width: 100%;
+}
+.What_is_CET h2{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FF2E00;
+}
+.CETInfo> span {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+}
+.Download_button  {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    width: 50%;
+    height: 13%;
+    justify-content: center;
+}
+
+.Download_button > div {
+height:100%;
+border-radius: 14px;
+     width: 50%;
+     background-color: #FF2E00;
+}
+
+.Download_button  div > button {
+height: 100%;
+font-size: 20px;
+color:white;
+background-color: transparent;
+width: 100%;
+border: none;
+}
+
+
+
+@media screen and (max-width:1500px) {
+    .CETInfo >span {
+         font-size: 20px;
+    }
+    .Download_button > div {
+        height:70%;
+    }
+    .CETpageImgHolder > Img {
+        width: 50%;
+    }
+}

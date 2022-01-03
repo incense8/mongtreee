@@ -5,12 +5,13 @@
 .Herodiv_container{
     padding: 3%;
     padding-top: 75px;
-    min-height: 74vh;
   
+    height: 700px;
     grid-template-columns: 50% 50%;
     display: grid;
     justify-content: space-around;
     max-height: 90vh;
+
 }
 
 .Moto_holder {
