@@ -213,6 +213,9 @@
 align-items: center;
       /* grid-template-columns: 30% 30% 30% 30%; */
 }
+.Application_grid_heading > div >span{
+  font-size: 15px;
+}
 .Application_grid_heading_CET> div > span{
     font-size: 15px;
 }
@@ -220,6 +223,14 @@ align-items: center;
   font-size: 14px;
 }
 
+.Application_InfoHolder_CET{
+  display: grid;
+  margin-right: 5%;
+  margin-left: 5%;
+  grid-template-columns: 49% 49%;
+  justify-items: center;
+  padding: 1%;
+}
 .Question > p{
   font-size: 15px;
 }
