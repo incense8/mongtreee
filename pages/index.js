@@ -11,7 +11,7 @@ export default function Home() {
     <div >
           <Navbar/>  
           <Hero/>
-         < Who/>
+         {/* < Who/> */}
          <Amazing/>
          <MoreInfo/>
          <Testional/>

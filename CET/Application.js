@@ -74,167 +74,134 @@ export default function Application() {
         </div>
       </div>
 
-
-
-
       <div className={Class.Application_grid}>
-                      <div className={Class.Application_grid_heading}>
-                           <div >
-                                 <span>TEST NO.</span>
-                               
-                               </div>    
-                               <div>
-                                   <span>PROGRAMME</span>
-                                   
-                                   </div>  
-                               <div>
-                                   <span>ELGIBILITY CRITERIA</span>
-                                   </div> 
-                   <div >
-                       <span>No. of Questions</span>
-
-</div> 
-                      </div>
-                <div className={Class.Application_content_holding}>
-
-               
-        <div className={Class.Application_InfoHolder}>
-          <div className={Class.InfoNumber}>
-            <span>1.</span>
+        <div className={Class.Application_grid_heading}>
+          <div>
+            <span>TEST NO.</span>
           </div>
-          <div className={Class.Programme_info}>
-            <span>Diploma courses (Engineering & Non-Engineering)</span>
+          <div>
+            <span>PROGRAMME</span>
           </div>
-          <div className={Class.Application_criteria}>
-            <p>
-            Mathematics
-            </p>
-            <p>
-            Physics
-            </p>
-            <p>
-           
-            Chemistry	
-            </p>
-            <p>
-            Biology	
-            </p>
-            <p>
-            English
-            </p>
+          <div>
+            <span>ELGIBILITY CRITERIA</span>
           </div>
-          <div className={Class.Question}>
-          <p>50</p>
-          <p>40</p>
-          <p>30</p>
-          <p>15</p>
-          <p>15</p>
-</div>
+          <div>
+            <span>No. of Questions</span>
+          </div>
         </div>
-        <div className={Class.Application_InfoHolder}>
-          <div className={Class.InfoNumber}>
-            <span>2.</span>
+        <div className={Class.Application_content_holding}>
+          <div className={Class.Application_InfoHolder}>
+            <div className={Class.InfoNumber}>
+              <span>1.</span>
+            </div>
+            <div className={Class.Programme_info}>
+              <span>Diploma courses (Engineering & Non-Engineering)</span>
+            </div>
+            <div className={Class.Application_criteria}>
+              <p>Mathematics</p>
+              <p>Physics</p>
+              <p>Chemistry</p>
+              <p>Biology</p>
+              <p>English</p>
+            </div>
+            <div className={Class.Question}>
+              <p>50</p>
+              <p>40</p>
+              <p>30</p>
+              <p>15</p>
+              <p>15</p>
+            </div>
           </div>
-          <div className={Class.Programme_info}>
-            <span>Modern Office Practice (English) or one year certificate courses (Hospitality Operations, Retail Services and Finance Executive) in WCSC</span>
-          </div>
-          <div className={Class.Application_criteria}>
-       <p>   Comprehension of English including Grammar	</p>
+          <div className={Class.Application_InfoHolder}>
+            <div className={Class.InfoNumber}>
+              <span>2.</span>
+            </div>
+            <div className={Class.Programme_info}>
+              <span>
+                Modern Office Practice (English) or one year certificate courses
+                (Hospitality Operations, Retail Services and Finance Executive)
+                in WCSC
+              </span>
+            </div>
+            <div className={Class.Application_criteria}>
+              <p> Comprehension of English including Grammar </p>
 
-	<p>
-    Knowledge of Current Affairs
-</p>
+              <p>Knowledge of Current Affairs</p>
 
-<p>
-Logical & Analytical Ability
-</p>
-	
+              <p>Logical & Analytical Ability</p>
+            </div>
+            <div className={Class.Question}>
+              <p>60</p>
+              <p>40</p>
+              <p>40</p>
+            </div>
           </div>
-          <div className={Class.Question}>
-          <p>60</p>
-          <p>40</p>
-          <p>40</p>
-         
-</div>
+          <div className={Class.Application_InfoHolder}>
+            <div className={Class.InfoNumber}>
+              <span>3.</span>
+            </div>
+            <div className={Class.Programme_info}>
+              <span>Modern Office Practice-Hindi (12th based)</span>
+            </div>
+            <div className={Class.Application_criteria}>
+              <p>Comprehension of English including Grammar </p>
+
+              <p>Knowledge of Current Affairs </p>
+
+              <p>Logical & Analytical Ability </p>
+            </div>
+            <div className={Class.Question}>
+              <p>60</p>
+              <p>40</p>
+              <p>40</p>
+            </div>
+          </div>
+          <div className={Class.Application_InfoHolder}>
+            <div className={Class.InfoNumber}>
+              <span>4..</span>
+            </div>
+            <div className={Class.Programme_info}>
+              <span>
+                (A) Pharmacy (12th Based) (B) One year Certificate course in
+                Software Testing Assistant (12thBased)
+              </span>
+            </div>
+            <div className={Class.Application_criteria}>
+              <p>Physics </p>
+
+              <p>Chemistry </p>
+              <p>Mathematics </p>
+              <p>Biology </p>
+            </div>
+            <div className={Class.Question}>
+              <p>45</p>
+              <p>45</p>
+              <p>60</p>
+              <p>60</p>
+            </div>
+          </div>
+          <div className={Class.Application_InfoHolder}>
+            <div className={Class.InfoNumber}>
+              <span>5.</span>
+            </div>
+            <div className={Class.Programme_info}>
+              <span>Lateral entry of ITI/10+2(Vocational Stream)</span>
+            </div>
+            <div className={Class.Application_criteria}>
+              <p>Physics </p>
+
+              <p>Chemistry </p>
+              <p>Mathematics </p>
+            </div>
+
+            <div className={Class.Question}>
+              <p>60</p>
+              <p>60</p>
+              <p>30</p>
+            </div>
+          </div>
         </div>
-        <div className={Class.Application_InfoHolder}>
-          <div className={Class.InfoNumber}>
-            <span>3.</span>
-          </div>
-          <div className={Class.Programme_info}>
-            <span>Modern Office Practice-Hindi (12th based)</span>
-          </div>
-          <div className={Class.Application_criteria}>
-            <p>
-            Comprehension of English including Grammar	 </p>
-
-            <p>Knowledge of Current Affairs	 </p>
-
-<p>Logical & Analytical Ability	            </p>
-          </div>
-          <div className={Class.Question}>
-          <p>60</p>
-          <p>40</p>
-          <p>40</p>
-         
-</div>
-        </div>
-        <div className={Class.Application_InfoHolder}>
-          <div className={Class.InfoNumber}>
-            <span>4..</span>
-          </div>
-          <div className={Class.Programme_info}>
-              <span>(A) Pharmacy (12th Based) (B) One year Certificate course in Software Testing Assistant (12thBased)</span>
-          </div>
-          <div className={Class.Application_criteria}>
-  <p>Physics	</p>
-
-<p>Chemistry </p>
-<p>
-Mathematics </p>	
-<p>Biology	</p>
-          </div>
-          <div className={Class.Question}>
-          <p>45</p>
-          <p>45</p>
-          <p>60</p>
-          <p>60</p>
-         
-</div>
-        </div>
-        <div className={Class.Application_InfoHolder}>
-          <div className={Class.InfoNumber}>
-            <span>5.</span>
-          </div>
-          <div className={Class.Programme_info}>
-            <span>Lateral entry of ITI/10+2(Vocational Stream)</span>
-          </div>
-          <div className={Class.Application_criteria}>
-  <p>Physics	</p>
-
-<p>Chemistry </p>
-<p>
-Mathematics </p>	
-
-          </div>
-        
-
-
-          <div className={Class.Question}>
-          
-          
-          <p>60</p>
-          <p>60</p>
-          <p>30</p>
-         
-</div>
-
-        </div>
- </div>
-
       </div>
-
-
 
       <div className={Class.Application_holder}>
         <div className={Class.Application_heading}>
@@ -243,63 +210,63 @@ Mathematics </p>
         <div className={Class.Application_Subheading_holder}>
           <div className={Class.Application_subheading}>
             <span>
-            CET Delhi 2021 is an entrance test for admission into various technical and professional courses. Some of the institutes which will accept the CET Delhi 2021 scorecard for admission to their polytechnic programs are listed below.
+              CET Delhi 2021 is an entrance test for admission into various
+              technical and professional courses. Some of the institutes which
+              will accept the CET Delhi 2021 scorecard for admission to their
+              polytechnic programs are listed below.
             </span>
           </div>
         </div>
       </div>
       <div className={Class.Application_grid_CET}>
-                      <div className={Class.Application_grid_heading_CET}>
-                           <div >
-                                 <span>TEST NO.</span>
-                               
-                               </div>    
-                               <div>
-                                   <span>PROGRAMME</span>
-                                   
-                                   </div>  
-                               <div>
-                                   <span>ELGIBILITY CRITERIA</span>
-                                   </div>  
-                      </div>
-                <div className={Class.Application_content_holding}>
-
-               
-        <div className={Class.Application_InfoHolder_CET}>
-         
-          <div className={Class.Programme_info}>
-            <span>Government Institutes</span>
+        <div className={Class.Application_grid_heading_CET}>
+          <div>
+            <span>Participating Institutes	Name of Institutes.</span>
           </div>
-          <div className={Class.Application_criteria}>
-            <p>
-            Ambedkar Polytechnic, Aryabhat Polytechnic ,GB Pant Polytechnic ,Guru Nanak Dev Polytechnic, Kasturba Polytechnic for Women, Meera Bai Institute of Technology ,Pusa Polytechnic, Integrated Institute of Technology, Bhai Parmanand Institute of Business Studies, Delhi Institute of Tool Engineering, Vardhman Mahavir Medical College & Safdarjung Hospital.       
-
-            </p>
+          <div>
+            <span>Name Institutes</span>
+          </div>
+     
+        </div>
+        <div className={Class.Application_content_holding}>
+          <div className={Class.Application_InfoHolder_CET}>
+            <div className={Class.Programme_info}>
+              <span>Government Institutes</span>
+            </div>
+            <div className={Class.Application_criteria_CET}>
+              <p>
+                Ambedkar Polytechnic, Aryabhat Polytechnic ,GB Pant Polytechnic
+                ,Guru Nanak Dev Polytechnic, Kasturba Polytechnic for Women,
+                Meera Bai Institute of Technology ,Pusa Polytechnic, Integrated
+                Institute of Technology, Bhai Parmanand Institute of Business
+                Studies, Delhi Institute of Tool Engineering, Vardhman Mahavir
+                Medical College & Safdarjung Hospital.
+              </p>
+            </div>
+          </div>
+          <div className={Class.Application_InfoHolder_CET}>
+            <div className={Class.Programme_info}>
+              <span>Government Aided</span>{" "}
+            </div>
+            <div className={Class.Application_criteria_CET}>
+              <p>Sarada Ukil School of Art (SUSA)</p>
+            </div>
+          </div>
+          <div className={Class.Application_InfoHolder_CET}>
+            <div className={Class.Programme_info}>
+              <span>Privately Managed Affiliated Institutes</span>
+            </div>
+            <div className={Class.Application_criteria_CET}>
+              <p>
+                Aditya Institute of technology ,Baba Haridass College of
+                Pharmacy & Technology, Chhotu Ram Rural Institute of Engineering
+                & Technology, Guru Tegh Bahadur Polytechnic, Marathwada
+                Institute of Technology, Subramaniam Bharati College of Science
+                & Technology ,International Polytechnic for Women.{" "}
+              </p>
+            </div>
           </div>
         </div>
-        <div className={Class.Application_InfoHolder_CET}>
-        
-          <div className={Class.Programme_info}>
-<span>Government Aided</span>          </div>
-          <div className={Class.Application_criteria}>
-            <p>
-            Sarada Ukil School of Art (SUSA)
-                 </p>
-          </div>
-        </div>
-        <div className={Class.Application_InfoHolder_CET}>
-        
-          <div className={Class.Programme_info}>
-            <span>Privately Managed Affiliated Institutes</span>
-          </div>
-          <div className={Class.Application_criteria}>
-            <p>
-            Aditya Institute of technology ,Baba Haridass College of Pharmacy & Technology, Chhotu Ram Rural Institute of Engineering & Technology, Guru Tegh Bahadur Polytechnic, Marathwada Institute of Technology, Subramaniam Bharati College of Science & Technology ,International Polytechnic for Women.            </p>
-          </div>
-        </div>
-
- </div>
-
       </div>
     </div>
   );

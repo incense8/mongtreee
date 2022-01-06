@@ -1,185 +1,236 @@
-.Application_conatner{
-    display: flex;
-    flex-direction: column;
-    gap:30px;
+.Application_conatner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.Application_holder{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.Application_holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.Application_heading{
-    width: 90%;
+.Application_heading {
+  width: 90%;
 }
 .Application_heading > h2 {
-    font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 47px;
-color: #FF2E00;
+  font-family: DM Sans;
+  /* font-style: normal;
+  font-weight: bold; */
+  font-size: 36px;
+  line-height: 47px;
+  color: #ff2e00;
 }
-.Application_Subheading_holder{
-   width:70% ;  
-   justify-content: center;
-   display: flex;
+.Application_Subheading_holder {
+  width: 70%;
+  justify-content: center;
+  display: flex;
 }
 .OrderList > ol {
-    font-family: DM Sans;
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 47px;
+  font-family: DM Sans;
+  /* font-style: normal;
+  font-weight: 500; */
+  font-size: 25px;
+  line-height: 47px;
 
-color: #000000;
+  color: #000000;
 }
 
-.Application_subheading > span{
-    font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 31px;
-color: #000000;
+.Application_subheading > span {
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 28px;
+  line-height: 46px;
+  color: #000000;
 }
-.Application_subheading >p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 31px;
-    color: #000000;
+.Application_subheading > p {
+  font-style: normal;
+  /* font-weight: 500; */
+  font-size: 28px;
+  line-height: 31px;
+  color: #000000;
 }
 
 /*_________________*/
 
-.Application_grid{
-    margin: 80px 10px 0px 10px;
+.Application_grid {
+  margin: 80px 10px 0px 10px;
 }
-.Application_grid_heading_CET, .Application_InfoHolder_CET {
-    display: grid;
-    margin-right: 5%;
-    margin-left: 5%;
-    grid-template-columns: 45% 45%;
-    justify-items: center;
-    
+.Application_grid_heading_CET,
+.Application_InfoHolder_CET {
+  display: grid;
+  margin-right: 5%;
+  margin-left: 5%;
+  grid-template-columns: 45% 45%;
+  justify-items: center;
 }
-.Application_criteria_CET{
-    width: 100%;
-    display: flex;
-    align-content: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    -moz-box-align: center;
-    align-items: flex-start;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    flex-direction: column;
+.Application_criteria_CET {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: flex-start;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
 }
-.Programme_info{
-    display: flex;
-    width: 50%;
-    -moz-box-align: center;
-    align-items: center;
-    justify-content: flex-start;
+.Programme_info {
+  display: flex;
+  /* width: 50%; */
+  -moz-box-align: center;
+  align-items: center;
+  justify-content: flex-start;
 }
-.Application_InfoHolder_CET:nth-of-type(odd){
-    background-color: pink;
-    }
+.Application_InfoHolder_CET:nth-of-type(odd) {
+  background-color: pink;
+}
 
-    
-    .Application_grid_heading_CET >div > span {
-        font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 47px;
-    color: #FF2E00;
-    }
-.Application_grid_heading, .Application_InfoHolder {
-    display: grid;
-    margin-right: 5%;
-    margin-left: 5%;
-    grid-template-columns: 25% 25%  25% 25% ;
-    justify-items: center;
+.Application_grid_heading_CET > div > span {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 47px;
+  color: #ff2e00;
 }
-.Application_criteria{
-    display: flex;
-    align-content: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    -moz-box-align: center;
-    align-items: center;
-    flex-direction: column;
+.Application_grid_heading,
+.Application_InfoHolder {
+  display: grid;
+  margin-right: 5%;
+  margin-left: 5%;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+}
+.Application_criteria {
+  display: flex;
+  align-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 .Application_grid_heading > div {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
-.Application_grid_heading >div > span {
-    font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 47px;
-color: #FF2E00;
+.Application_grid_heading > div > span {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ff2e00;
 }
 
 .Application_InfoHolder > div {
-    display: flex;
-    align-content: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  align-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.InfoNumber >span{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 47px;
-    color: #000000;
+.InfoNumber > span {
+  font-family: DM Sans;
+  /* font-style: normal;
+  font-weight: 500; */
+  font-size: 36px;
+  line-height: 47px;
+  color: #000000;
 }
 
-.Programme_info >span{
-    font-family: DM Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 21px;
-line-height: 33px;
+.Programme_info > span {
+  font-family: DM Sans;
+  /* font-style: normal;
+  font-weight: bold; */
+  font-size: 21px;
+  line-height: 33px;
 
-
-color: #000000;
+  color: #000000;
 }
 
 .Application_criteria > p {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 33px;
-    color: #000000;
+  font-family: DM Sans;
+  /* font-style: normal;
+  font-weight: bold; */
+  font-size: 21px;
+  line-height: 33px;
+  color: #000000;
 }
-.Application_InfoHolder:nth-of-type(odd){
-background-color: pink;
+.Application_InfoHolder:nth-of-type(odd) {
+  background-color: pink;
 }
 
-.Question  {
-    display: flex;
-    align-content: center;
-    -moz-box-pack: center;
-    justify-content: center;
-    -moz-box-align: center;
-    align-items: center;
-    flex-direction: column;
+.Question {
+  display: flex;
+  align-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 .Question > p {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 31px;
-    
-    color: #000000;
+  font-family: DM Sans;
+  /* font-style: normal;
+  font-weight: bold; */
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #000000;
+}
+@media screen and (max-width:1000px){
+
+  .Application_Subheading_holder{
+    width: 98%;
+    padding:1%
+}
+.Application_subheading > span{
+    font-size: 16px;
+}
+.Application_grid{
+    margin: 0%;
+}
+.InfoNumber> span{
+    font-size: 20px;
+}
+.Application_InfoHolder{
+    margin:0%;
+    grid-template-columns: 10% 1fr 1fr 1fr;
+    grid-template-rows:  100%;
+
+}
+.Application_InfoHolder > div{
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+.Application_grid_heading{
+    margin: 0%;
+align-items: center;
+      /* grid-template-columns: 30% 30% 30% 30%; */
+}
+.Application_grid_heading_CET> div > span{
+    font-size: 15px;
+}
+.Application_criteria> p {
+  font-size: 14px;
+}
+
+.Question > p{
+  font-size: 15px;
+}
+.OrderList >ol{
+  font-size: 17px;
+}
+.Application_subheading > p{
+  font-size: 17px;
+}
+.Programme_info > span {
+  font-size: 14px;
+}
+
 }

@@ -37,7 +37,7 @@
 }
 .Info_Learn_more{
     font-style: normal;
-font-weight: bold;
+/* font-weight: bold; */
 font-size: 20px;
 line-height: 24px;
 
@@ -117,7 +117,7 @@ line-height: 24px;
 }
 .Info_Learn_more{
     font-style: normal;
-font-weight: bold;
+/* font-weight: bold; */
 font-size: 20px;
 line-height: 24px;
 
@@ -154,7 +154,7 @@ line-height: 24px;
 /*_______________________________________________________________________________________________*/
 .Info_Learn_more{
     font-style: normal;
-font-weight: bold;
+/* font-weight: bold; */
 font-size: 20px;
 line-height: 24px;
 
@@ -252,7 +252,7 @@ line-height: 24px;
 }
 .Info_Learn_more3{
     font-style: normal;
-font-weight: bold;
+/* font-weight: bold; */
 font-size: 20px;
 line-height: 24px;
 
@@ -269,6 +269,12 @@ line-height: 24px;
 
 
 @media screen and (max-width:780px) {
+    .Segment_heading >span{
+font-size: 21px;
+    }
+    .Segment_subheading >span {
+font-size: 30px;
+    }
     .AmazingHeading >div > h1 {
         text-align: center;
         font-size: 30px;

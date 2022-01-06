@@ -6,11 +6,11 @@
     padding: 3%;
     padding-top: 75px;
   
-    height: 700px;
+    
     grid-template-columns: 50% 50%;
     display: grid;
     justify-content: space-around;
-    max-height: 90vh;
+
 
 }
 
@@ -82,18 +82,7 @@ color: #544837;
          font-size: 22px;
      }
 }
-@media screen and (max-width:1080px) {
-    .Herodiv_container {
-        max-height: 100vh;
-    }
-    /* .Moto > h2 {
-        font-size: 50px;
-    } */
-    /* .HeroImg {
-        display: none;
-    } */
-    
-}
+
 @media  screen and (max-width:870px) {
    
     .Hero_divSignup > button {

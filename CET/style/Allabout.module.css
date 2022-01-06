@@ -4,7 +4,7 @@
 
 .Allabout_holder{
     padding-top: 121px;
-    height:87vh;
+    /* height:87vh; */
     display: -moz-box;
     display: flex;
     -moz-box-pack: space-evenly;
@@ -28,7 +28,8 @@
     -moz-box-orient: vertical;
     -moz-box-direction: normal;
     flex-direction: column;
-    height: 84%;
+    height: 100%;
+    margin: 23px;
     width: 84%;
     -moz-box-pack: space-evenly;
     justify-content: center;
@@ -63,7 +64,7 @@ color: #FF2E00;
 .CETInfo> span {
     font-family: DM Sans;
     font-style: normal;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 24px;
     line-height: 31px;
 }
@@ -71,8 +72,8 @@ color: #FF2E00;
     display: flex;
     -moz-box-align: center;
     align-items: center;
-    width: 50%;
-    height: 13%;
+    width: 418px;
+    height: 40px;
     justify-content: center;
 }
 
@@ -103,5 +104,26 @@ border: none;
     }
     .CETpageImgHolder > Img {
         width: 50%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .Allabout_holder{
+        padding-top:45px;
+    }
+    .Allabout_heading> h1{
+        font-size: 27px;
+    }
+.Info_holder{
+    width: 100%;
+}
+.CETInfo > span{
+font-size: 16px;
+}
+    .Allabout_holder{
+        flex-direction: column;
+    }
+    .What_conatiner{
+        margin: 4px;
     }
 }
