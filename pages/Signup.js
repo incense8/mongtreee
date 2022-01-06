@@ -54,16 +54,16 @@ export default function Signup() {
         <form onSubmit={submit}>
             <div>
                             <div>
-         <input type="Email" onChange={handlechange} name="Email" placeholder="Email" />       
+         <input type="Email" onChange={handlechange} name="Email" placeholder="Email" required />       
             </div>
           <div>
-             <input type="text" onChange={handlechange} name="FullName" placeholder="Full Name"  />  
+             <input type="text" onChange={handlechange} name="FullName" placeholder="Full Name" required   />  
               </div> 
          <div>
-  <input type="tel" onChange={handlechange} name="Phoneno" placeholder="Phone no "  />
+  <input type="tel" onChange={handlechange} name="Phoneno" placeholder="Phone no " required   />
          </div>
          <div>
-  <input type="password" onChange={handlechange} name="Password" placeholder="Password"  />
+  <input type="password" onChange={handlechange} name="Password" placeholder="Password"  required  />
          </div> 
             </div>
 

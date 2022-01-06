@@ -58,12 +58,12 @@ export default function Login() {
         <form onSubmit={submit}>
             <div>
                             <div>
-         <input type="Email" onChange={handlechange} name="Email" placeholder="Email" />       
+         <input type="Email" onChange={handlechange} name="Email" required  placeholder="Email" />       
             </div>
        
    
          <div>
-  <input type=  {  passwordshow ? "password": "text"} onChange={handlechange} name="Password" placeholder="Password"  />
+  <input type=  {  passwordshow ? "password": "text"} onChange={handlechange}  required  name="Password" placeholder="Password"  />
             <div onClick={()=>setpasswordshow(!passwordshow)}>   {passwordshow ? <VisibilityIcon/> :<VisibilityOffIcon/> }    </div>
          </div> 
             </div>
