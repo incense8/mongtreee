@@ -4,6 +4,7 @@
         display: grid;
         grid-template-columns: 39% 61%;
         grid-template-rows: 100vh;
+        min-height: 350px;
    
         background: #fff4d6;
     }

@@ -14,10 +14,10 @@ export default function Navbar() {
           <div className={Class.company_info_logo}>
             <div className={Class.LogoImg}>
               {" "}
-              <img src="/Logo.svg" alt="" />
+              <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQHDY8DohVq9pA/company-logo_200_200/0/1634064615628?e=1649894400&v=beta&t=ZbuYvF5Gtlndp8K0zGCiJx9PqKeekun4zOQQyWBj0AU" alt="" />
             </div>
             <div className={Class.DESUCET}>
-              <span>DESU CET</span>
+              <span>MonkTree</span>
             </div>
           </div>
         </div>
