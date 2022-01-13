@@ -20,7 +20,7 @@ export default function Login() {
 
   const submit = async (e) => {
     e.preventDefault();
-    console.log(info);
+    
 
     try {
       const data =  await axios.post(`${process.env.Backend}/api/vi/user/Login`, info );

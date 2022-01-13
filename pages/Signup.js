@@ -18,7 +18,7 @@ export default function Signup() {
 
   const submit = async (e) => {
     e.preventDefault();
-    console.log(info);
+   
 
     try {
       const data =await  axios.get(`${process.env.Backend}/api/vi/Signup`);
